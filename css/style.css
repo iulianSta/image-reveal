@@ -16,7 +16,7 @@ body {
 /* Container style */
 .container {
   position: absolute;
-  width: 2rem;
+  width: 10rem;
   height: 100%;
   padding-left: 5px;
   right: 0;
@@ -28,9 +28,27 @@ body {
 /* Box container style */
 .box {
   position: absolute;
-  width: 5px;
+  width: 10px;
   height: 100%;
   left: 0;
-  background-color: silver;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
   cursor: w-resize;
+}
+.box::before {
+  content: "< >";
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
 }
