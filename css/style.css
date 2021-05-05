@@ -18,3 +18,12 @@ body {
   right: 0;
   background-color: silver;
 }
+/* Box container style */
+.box {
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  left: 0;
+  background-color: skyblue;
+  cursor: w-resize;
+}
