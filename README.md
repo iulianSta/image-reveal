@@ -1,6 +1,6 @@
 # Image Reveal
 
-![JavaScript digital clock project](https://share.vidyard.com/watch/wb8LWduH47vzHTp7wwTXsh?)
+![JavaScript digital clock project](./img/screenshot.png)
 
 - build a image reveal app on X Axe using HTML, CSS and JavaScript;
 - using resize function to resize the images withouth affect the current size;
